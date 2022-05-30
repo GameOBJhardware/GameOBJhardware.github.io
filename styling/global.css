@@ -1,3 +1,7 @@
 .container {
-    background-color: #bbbbbb;
+    background-color: transparent;
+}
+
+body {
+    background-color: #121212;
 }
