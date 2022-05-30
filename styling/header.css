@@ -10,10 +10,13 @@ ul {
   width: 100%;
   border-radius: 10px;
 }
-li {
+.hleft {
+  float: left;
+}
+.hmain {
   float: right;
 }
-li a {
+li a, li h4 {
   display: block;
   color: white;
   text-align: center;
@@ -22,16 +25,19 @@ li a {
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
-li a:hover:not(.active) {
+.hright a:hover:not(.active) {
   background-color: #111;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
-li a:hover {
+.hright a:hover {
   background-color: #3B9E40;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 .active {
   background-color: #4CAF50;
+}
+button {
+
 }
